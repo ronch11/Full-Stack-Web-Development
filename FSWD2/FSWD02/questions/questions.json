@@ -1,0 +1,1035 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What does CPU stand for?",
+            "correct_answer": "Central Processing Unit",
+            "incorrect_answers": [
+                "Central Process Unit",
+                "Computer Personal Unit",
+                "Central Processor Unit"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "According to the International System of Units, how many bytes are in a kilobyte of RAM?",
+            "correct_answer": "1000",
+            "incorrect_answers": [
+                "512",
+                "1024",
+                "500"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "boolean",
+            "difficulty": "medium",
+            "question": "FLAC stands for &quot;Free Lossless Audio Condenser&quot;&#039;",
+            "correct_answer": "False",
+            "incorrect_answers": [
+                "True"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "When was the programming language &quot;C#&quot; released?",
+            "correct_answer": "2000",
+            "incorrect_answers": [
+                "1998",
+                "1999",
+                "2001"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The programming language &#039;Swift&#039; was created to replace what other programming language?",
+            "correct_answer": "Objective-C",
+            "incorrect_answers": [
+                "C#",
+                "Ruby",
+                "C++"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "HTML is what type of language?",
+            "correct_answer": "Markup Language",
+            "incorrect_answers": [
+                "Macro Language",
+                "Programming Language",
+                "Scripting Language"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which computer hardware device provides an interface for all other connected devices to communicate?",
+            "correct_answer": "Motherboard",
+            "incorrect_answers": [
+                "Central Processing Unit",
+                "Hard Disk Drive",
+                "Random Access Memory"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "All of the following programs are classified as raster graphics editors EXCEPT:",
+            "correct_answer": "Inkscape",
+            "incorrect_answers": [
+                "Paint.NET",
+                "GIMP",
+                "Adobe Photoshop"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What did the name of the Tor Anonymity Network orignially stand for?",
+            "correct_answer": "The Onion Router",
+            "incorrect_answers": [
+                "The Only Router",
+                "The Orange Router",
+                "The Ominous Router"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In web design, what does CSS stand for?",
+            "correct_answer": "Cascading Style Sheet",
+            "incorrect_answers": [
+                "Counter Strike: Source",
+                "Corrective Style Sheet",
+                "Computer Style Sheet"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which of these is the name for the failed key escrow device introduced by the National Security Agency in 1993?",
+            "correct_answer": "Clipper Chip",
+            "incorrect_answers": [
+                "Enigma Machine",
+                "Skipjack",
+                "Nautilus"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "On which day did the World Wide Web go online?",
+            "correct_answer": "December 20, 1990",
+            "incorrect_answers": [
+                "December 17, 1996",
+                "November 12, 1990",
+                "November 24, 1995"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the domain name for the country Tuvalu?",
+            "correct_answer": ".tv",
+            "incorrect_answers": [
+                ".tu",
+                ".tt",
+                ".tl"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "While Apple was formed in California, in which western state was Microsoft founded?",
+            "correct_answer": "New Mexico",
+            "incorrect_answers": [
+                "Washington",
+                "Colorado",
+                "Arizona"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What does the acronym CDN stand for in terms of networking?",
+            "correct_answer": "Content Delivery Network",
+            "incorrect_answers": [
+                "Content Distribution Network",
+                "Computational Data Network",
+                "Compressed Data Network"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Generally, which component of a computer draws the most power?",
+            "correct_answer": "Video Card",
+            "incorrect_answers": [
+                "Hard Drive",
+                "Processor",
+                "Power Supply"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which one of these is not an official development name for a Ubuntu release?",
+            "correct_answer": "Mystic Mansion",
+            "incorrect_answers": [
+                "Trusty Tahr",
+                "Utopic Unicorn",
+                "Wily Werewolf"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In the server hosting industry IaaS stands for...",
+            "correct_answer": "Infrastructure as a Service",
+            "incorrect_answers": [
+                "Internet as a Service",
+                "Internet and a Server",
+                "Infrastructure as a Server"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "boolean",
+            "difficulty": "medium",
+            "question": "AMD created the first consumer 64-bit processor.",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these names was an actual codename for a cancelled Microsoft project?",
+            "correct_answer": "Neptune",
+            "incorrect_answers": [
+                "Enceladus",
+                "Pollux",
+                "Saturn"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In CSS, which of these values CANNOT be used with the &quot;position&quot; property?",
+            "correct_answer": "center",
+            "incorrect_answers": [
+                "static",
+                "absolute",
+                "relative"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "In &quot;Hexadecimal&quot;, what color would be displayed from the color code? &quot;#00FF00&quot;?",
+            "correct_answer": "Green",
+            "incorrect_answers": [
+                "Red",
+                "Blue",
+                "Yellow"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which computer language would you associate Django framework with?",
+            "correct_answer": "Python",
+            "incorrect_answers": [
+                "C#",
+                "C++",
+                "Java"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "How fast is USB 3.1 Gen 2 theoretically?",
+            "correct_answer": "10 Gb\/s",
+            "incorrect_answers": [
+                "5 Gb\/s",
+                "8 Gb\/s",
+                "1 Gb\/s"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which operating system was released first?",
+            "correct_answer": "Mac OS",
+            "incorrect_answers": [
+                "Windows",
+                "Linux",
+                "OS\/2"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the name of the process that sends one qubit of information using two bits of classical information?",
+            "correct_answer": "Quantum Teleportation",
+            "incorrect_answers": [
+                "Super Dense Coding",
+                "Quantum Entanglement",
+                "Quantum Programming"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What internet protocol was documented in RFC 1459?",
+            "correct_answer": "IRC",
+            "incorrect_answers": [
+                "HTTP",
+                "HTTPS",
+                "FTP"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What does the International System of Quantities refer 1024 bytes as?",
+            "correct_answer": "Kibibyte",
+            "incorrect_answers": [
+                "Kylobyte",
+                "Kilobyte",
+                "Kelobyte"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What does the term MIME stand for, in regards to computing?",
+            "correct_answer": "Multipurpose Internet Mail Extensions",
+            "incorrect_answers": [
+                "Mail Internet Mail Exchange",
+                "Multipurpose Interleave Mail Exchange",
+                "Mail Interleave Method Exchange"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The C programming language was created by this American computer scientist. ",
+            "correct_answer": "Dennis Ritchie",
+            "incorrect_answers": [
+                "Tim Berners Lee",
+                "al-Khw\u0101rizm\u012b",
+                "Willis Ware"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which programming language was developed by Sun Microsystems in 1995?",
+            "correct_answer": "Java",
+            "incorrect_answers": [
+                "Python",
+                "Solaris OS",
+                "C++"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the name given to layer 4 of the Open Systems Interconnection (ISO) model?",
+            "correct_answer": "Transport",
+            "incorrect_answers": [
+                "Session",
+                "Data link",
+                "Network"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Approximately how many Apple I personal computers were created?",
+            "correct_answer": "200",
+            "incorrect_answers": [
+                "100",
+                "500",
+                "1000"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "How long is an IPv6 address?",
+            "correct_answer": "128 bits",
+            "incorrect_answers": [
+                "32 bits",
+                "64 bits",
+                "128 bytes"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "How many bytes are in a single Kibibyte?",
+            "correct_answer": "1024",
+            "incorrect_answers": [
+                "2400",
+                "1000",
+                "1240"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What major programming language does Unreal Engine 4 use?",
+            "correct_answer": "C++",
+            "incorrect_answers": [
+                "Assembly",
+                "C#",
+                "ECMAScript"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "The acronym &quot;RIP&quot; stands for which of these?",
+            "correct_answer": "Routing Information Protocol",
+            "incorrect_answers": [
+                "Runtime Instance Processes",
+                "Regular Interval Processes",
+                "Routine Inspection Protocol"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these is not a layer in the OSI model for data communications?",
+            "correct_answer": "Connection Layer",
+            "incorrect_answers": [
+                "Application Layer",
+                "Transport Layer",
+                "Physical Layer"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What was the name of the first Bulgarian personal computer?",
+            "correct_answer": "IMKO-1",
+            "incorrect_answers": [
+                "Pravetz 82",
+                "Pravetz 8D",
+                "IZOT 1030"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "How many bits make up the significand portion of a single precision floating point number?",
+            "correct_answer": "23",
+            "incorrect_answers": [
+                "8",
+                "53",
+                "15"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What does the &#039;S&#039; in the RSA encryption algorithm stand for?",
+            "correct_answer": "Shamir",
+            "incorrect_answers": [
+                "Secure",
+                "Schottky",
+                "Stable"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of the following computer components can be built using only NAND gates?",
+            "correct_answer": "ALU",
+            "incorrect_answers": [
+                "CPU",
+                "RAM",
+                "Register"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Lenovo acquired IBM&#039;s personal computer division, including the ThinkPad line of laptops and tablets, in what year?",
+            "correct_answer": "2005",
+            "incorrect_answers": [
+                "1999",
+                "2002",
+                "2008"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these Cherry MX mechanical keyboard switches is both tactile and clicky?",
+            "correct_answer": "Cherry MX Blue",
+            "incorrect_answers": [
+                "Cherry MX Black",
+                "Cherry MX Red",
+                "Cherry MX Brown"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which kind of algorithm is Ron Rivest not famous for creating?",
+            "correct_answer": "Secret sharing scheme",
+            "incorrect_answers": [
+                "Hashing algorithm",
+                "Asymmetric encryption",
+                "Stream cipher"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Who is the founder of Palantir?",
+            "correct_answer": "Peter Thiel",
+            "incorrect_answers": [
+                "Mark Zuckerberg",
+                "Marc Benioff",
+                "Jack Dorsey"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "According to the BBPA, what is the most common pub name in the UK?",
+            "correct_answer": "Red Lion",
+            "incorrect_answers": [
+                "Royal Oak",
+                "White Hart",
+                "King&#039;s Head"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the first book of the Old Testament?",
+            "correct_answer": "Genesis",
+            "incorrect_answers": [
+                "Exodus",
+                "Leviticus",
+                "Numbers"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "boolean",
+            "difficulty": "easy",
+            "question": "The Great Wall of China is visible from the moon.",
+            "correct_answer": "False",
+            "incorrect_answers": [
+                "True"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the largest organ of the human body?",
+            "correct_answer": "Skin",
+            "incorrect_answers": [
+                "Heart",
+                "large Intestine",
+                "Liver"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Scotch whisky and Drambuie make up which cocktail?",
+            "correct_answer": "Rusty Nail",
+            "incorrect_answers": [
+                "Screwdriver",
+                "Sex on the Beach",
+                "Manhattan"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In the Morse code, which letter is indicated by 3 dots? ",
+            "correct_answer": "S",
+            "incorrect_answers": [
+                "O",
+                "A",
+                "C"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the shape of the toy invented by Hungarian professor Ern\u0151 Rubik?",
+            "correct_answer": "Cube",
+            "incorrect_answers": [
+                "Sphere",
+                "Cylinder",
+                "Pyramid"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "boolean",
+            "difficulty": "medium",
+            "question": "There are 86400 seconds in a day.",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is a &quot;dakimakura&quot;?",
+            "correct_answer": "A body pillow",
+            "incorrect_answers": [
+                "A Chinese meal, essentially composed of fish",
+                "A yoga posture",
+                "A word used to describe two people who truly love each other"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who is a co-founder of music streaming service Spotify?",
+            "correct_answer": "Daniel Ek",
+            "incorrect_answers": [
+                "Sean Parker",
+                "Felix Miller",
+                "Michael Breidenbruecker"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What did the Spanish autonomous community of Catalonia ban in 2010, that took effect in 2012?",
+            "correct_answer": "Bullfighting",
+            "incorrect_answers": [
+                "Fiestas",
+                "Flamenco",
+                "Mariachi"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the Spanish word for &quot;donkey&quot;?",
+            "correct_answer": "Burro",
+            "incorrect_answers": [
+                "Caballo",
+                "Toro",
+                "Perro"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the romanized Japanese word for &quot;university&quot;?",
+            "correct_answer": "Daigaku",
+            "incorrect_answers": [
+                "Toshokan",
+                "Jimusho",
+                "Shokudou"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The term &quot;scientist&quot; was coined in which year?",
+            "correct_answer": "1833",
+            "incorrect_answers": [
+                "1933",
+                "1942",
+                "1796"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "How long did it take the motorized window washers of the original World Trade Center to clean the entire exterior of the building?",
+            "correct_answer": "1 Month",
+            "incorrect_answers": [
+                "3 Weeks",
+                "1 Week",
+                "2 Months"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What do the letters in the GMT time zone stand for?",
+            "correct_answer": "Greenwich Mean Time",
+            "incorrect_answers": [
+                "Global Meridian Time",
+                "General Median Time",
+                "Glasgow Man Time"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "When was Nintendo founded?",
+            "correct_answer": "September 23rd, 1889",
+            "incorrect_answers": [
+                "October 19th, 1891",
+                "March 4th, 1887",
+                "December 27th, 1894"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The new One World Trade Center in Manhattan, New York City was designed by which architect? ",
+            "correct_answer": "David Childs",
+            "incorrect_answers": [
+                "Bjarke Ingels",
+                "Michael Arad",
+                "Fumihiko Maki"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is the name of Poland in Polish?",
+            "correct_answer": "Polska",
+            "incorrect_answers": [
+                "Pupcia",
+                "Polszka",
+                "P&oacute;land"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The New York Times slogan is, &ldquo;All the News That&rsquo;s Fit to&hellip;&rdquo;",
+            "correct_answer": "Print",
+            "incorrect_answers": [
+                "Digest",
+                "Look",
+                "Read"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What was Mountain Dew&#039;s original slogan?",
+            "correct_answer": "Yahoo! Mountain Dew... It&#039;ll tickle your innards!",
+            "incorrect_answers": [
+                "Give Me A Dew",
+                "Do The Dew",
+                "Get&#039; that barefoot feelin&#039; drinkin&#039; Mountain Dew"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which product did Nokia, the telecommunications company, originally sell?",
+            "correct_answer": "Paper",
+            "incorrect_answers": [
+                "Phones",
+                "Computers",
+                "Processors"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who invented Pastafarianism?",
+            "correct_answer": "Bobby Henderson",
+            "incorrect_answers": [
+                "Eric Tignor",
+                "Bill Nye",
+                "Zach Soldi"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Apple co-founder Steve Jobs died from complications of which form of cancer?",
+            "correct_answer": "Pancreatic",
+            "incorrect_answers": [
+                "Bone",
+                "Liver",
+                "Stomach"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is real haggis made of?",
+            "correct_answer": "Sheep&#039;s Heart, Liver and Lungs",
+            "incorrect_answers": [
+                "Sheep&#039;s Heart, Kidneys and Lungs",
+                "Sheep&#039;s Liver, Kidneys and Eyes",
+                "Whole Sheep"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Who founded the Khan Academy?",
+            "correct_answer": "Sal Khan",
+            "incorrect_answers": [
+                "Ben Khan",
+                "Kitt Khan",
+                "Adel Khan"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Where did the pineapple plant originate?",
+            "correct_answer": "South America",
+            "incorrect_answers": [
+                "Hawaii",
+                "Europe",
+                "Asia"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Chartreuse is a color between yellow and what?",
+            "correct_answer": "Green",
+            "incorrect_answers": [
+                "Red",
+                "Black",
+                "Purple"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "The Quadrangularis Reversum is best described as which of the following?",
+            "correct_answer": "A percussion instrument",
+            "incorrect_answers": [
+                "A building in Oxford University",
+                "A chess move",
+                "A geometric theorem"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The likeness of which president is featured on the rare $2 bill of USA currency?",
+            "correct_answer": "Thomas Jefferson",
+            "incorrect_answers": [
+                "Martin Van Buren",
+                "Ulysses Grant",
+                "John Quincy Adams"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the star sign of someone born on Valentines day?",
+            "correct_answer": "Aquarius",
+            "incorrect_answers": [
+                "Pisces",
+                "Capricorn",
+                "Scorpio"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What was the name given to Japanese military dictators who ruled the country through the 12th and 19th Century?",
+            "correct_answer": "Shogun",
+            "incorrect_answers": [
+                "Ninja",
+                "Samurai",
+                "Shinobi"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which church&#039;s interior in Vatican City was designed in 1503 by renaissance architects including Bramante, Michelangelo and Bernini?",
+            "correct_answer": "St. Peter&#039;s Basilica",
+            "incorrect_answers": [
+                "Catania Cathedral",
+                "St. Mark&rsquo;s Basilica",
+                "The Duomo of Florence"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "boolean",
+            "difficulty": "medium",
+            "question": "&quot;Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo.&quot; is a grammatically correct sentence.",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "boolean",
+            "difficulty": "easy",
+            "question": "Slovakia is a member of European Union-",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What is the full title of the Prime Minister of the UK?",
+            "correct_answer": "First Lord of the Treasury",
+            "incorrect_answers": [
+                "Duke of Cambridge",
+                "Her Majesty&#039;s Loyal Opposition",
+                "Manager of the Crown Estate"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "The word &quot;abulia&quot; means which of the following?",
+            "correct_answer": "The inability to make decisions",
+            "incorrect_answers": [
+                "The inability to stand up",
+                "The inability to concentrate on anything",
+                "A feverish desire to rip one&#039;s clothes off"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "boolean",
+            "difficulty": "medium",
+            "question": "Instant mashed potatoes were invented by Canadian Edward Asselbergs in 1962.",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of the following  British Monarchs never appeared on a circulated pound sterling coin?",
+            "correct_answer": "Edward VIII",
+            "incorrect_answers": [
+                "Victoria",
+                "George VI",
+                "Charles II"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which of the following is not an Ivy League University?",
+            "correct_answer": "Stanford",
+            "incorrect_answers": [
+                "University of Pennsylvania",
+                "Harvard",
+                "Princeton"
+            ]
+        },
+        {
+            "category": "General Knowledge",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What fast food chain has the most locations globally? ",
+            "correct_answer": "Subway",
+            "incorrect_answers": [
+                "Starbucks",
+                "McDonalds",
+                "KFC"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Game</title>
+    <script src="https://kit.fontawesome.com/803a3c2449.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../home/app.css">
+    <link rel="stylesheet" href="../home/style.css">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">DesingX</label>
+        <ul>
+            <li><a class="active" href="../pages/Quiz.html">Quizs</a></li>
+            <li><a href="../snake/snake.html">Snake</a></li>
+            <li><a class="loginBtn" href="../signin/signin.html">log in</a></li>
+            <li><a class="logoutBtn" href="../highscores.html" onclick="logout()">log out</a></li>            
+        </ul>    
+    </nav>
+
+    <div class="container">
+        <div id="home" class="flex-center flex-column">
+            <h1>GAMES</h1>
+            <a class="btn" href="../pages/Quiz.html">Quizs</a>
+            <a class="btn" href="../snake/snake.html">Snake</a>
+            <a class="btn" href="../highScore/highScore.html">scores table</table></a>
+            <a class="btn" href="#">comming soon</a>
+            <a class="btn loginBtn" href="../signin/signin.html">log in</a>
+            <a class="btn logoutBtn" onclick="logout()" href="home.html">log out</a>
+        </div>
+    </div>
+    <script>
+        let loginElements = document.getElementsByClassName("loginBtn");
+        let logoutElements = document.getElementsByClassName("logoutBtn");
+        if (localStorage.getItem("userLoggedIn")){
+            loginElements[0].style.display = "none";
+            loginElements[1].style.display = "none";
+
+            logoutElements[0].style.display = "block";
+            logoutElements[1].style.display = "block";
+      }else{
+        loginElements[0].style.display = "block";
+            loginElements[1].style.display = "block";
+
+            logoutElements[0].style.display = "none";
+            logoutElements[1].style.display = "none";
+      }
+  </script>
+</body>
+<script lang="javascript"> 
+    function logout(){
+        localStorage.removeItem('userLoggedIn');
+    }
+</script>
+</html>
