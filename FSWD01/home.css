@@ -1,0 +1,19 @@
+.home-imgs {
+    width: 100%;
+    height: 80%;
+    height: auto;
+}
+
+.home-imgs img {
+    align-content: center;
+    justify-content: center;
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    transition: 20s;
+    max-width: 1519.2px;
+    max-height: 700px;
+    ;
+
+}

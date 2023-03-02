@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset="utf-8">
+    <link rel='stylesheet' href='base.css'>
+    <link rel='stylesheet' href='items.css'>
+</head>
+<body>
+    <header>
+        <div class="nav-flex">
+            <img class="topnav-item" src="./images/logo.png" alt="לוגו">
+            <a class="topnav-item" href="home.html">בית</a>
+            <a class="topnav-item" href="items.html">מוצרים</a>
+            <a class="topnav-item" href="cart.html">לתשלום</a>
+        </div>
+    </header>
+    <main>
+        <div class="cbox">
+            <input type="checkbox" checked id="scb" value="sea" onclick="updateSea()">ים<br>
+            <input type="checkbox" checked id="acb" value="air" onclick="updateSea()">אוויר<br>
+            <input type="checkbox" checked id="arcb" value="army" onclick="updateSea()">יבשה<br>
+            <script>
+                function updateSea() {
+                    const cbxs = ["scb", "acb", "arcb"];
+                    const secs = ["sea", "air", "army"];
+                    for (let i = 0; i < cbxs.length; i++) {
+                        var checkBox = document.getElementById(cbxs[i]);
+                        var section = document.getElementById(secs[i]);
+                        if (checkBox.checked == true){
+                            section.style.display = "block";
+                        } else {
+                            section.style.display = "none";
+                        }
+                    }
+                }
+            </script>
+        </div>
+
+        <div class="items">
+            <section id="sea" >
+                <div class="item">
+                    <a class="item-link" target="_blank" href="https://he.wikipedia.org/wiki/%D7%A0%D7%95%D7%A9%D7%90%D7%95%D7%AA_%D7%94%D7%9E%D7%98%D7%95%D7%A1%D7%99%D7%9D_%D7%9E%D7%A1%D7%93%D7%A8%D7%AA_%D7%92%27%D7%A8%D7%9C%D7%93_%D7%A4%D7%95%D7%A8%D7%93">
+                        נושאת מטוסים מסדרת ג'ראל פורד
+                    </a>
+                    <img class="item-img" src=".\images\sea\USS_Gerald_R_Ford.JPG" alt="USS_Gerald_R._Ford">
+                    <div class="item-data">
+                        <div>סוג<br>נושאת מטוסים</div>
+                        <div>הדחק<br>10<sup>5</sup> טונות</div>
+                        <div>אורך<br>337 מ'</div>
+                        <div>רוחב<br>41-78 מ'</div>
+                        <div>גובה<br>76 מ'</div>
+                        <div>מהירות<br>30 קשר</div>
+                    </div>
+                    <div class="order">
+                        <input class="itms-num" type="number" min="0">
+                        <button>הוסף</button>
+                    </div>
+                </div>
+                
+                <div class="item">
+                    <a class="item-link" target="_blank" href="https://he.wikipedia.org/wiki/%D7%94%D7%A6%D7%95%D7%9C%D7%9C%D7%95%D7%AA_%D7%9E%D7%A1%D7%93%D7%A8%D7%AA_%D7%93%D7%95%D7%9C%D7%A4%D7%99%D7%9F_AIP">
+                        צוללת מסדרת דולפין AIP
+                    </a>
+                    <img class="item-img" src=".\images\sea\dolphin.webp" alt="dolphin submarine">
+                    <div class="item-data">
+                        <div>סוג<br>צוללת</div>
+                        <div>הדחק (בצלילה)<br>2400 טונות</div>
+                        <div>אורך<br>68.6 מ'</div>
+                        <div>רוחב<br>6.68 מ'</div>
+                        <div>גובה<br>6.20 מ'</div>
+                        <div>מהירות
+                            <ul>
+                                <li>צלילה: 25 קשר</li>
+                                <li>פני הים: 11 קשר</li>
+                            </ul>
+                        </div>
+                        <div>עומק צלילה<br>300+ מטר</div>
+                    </div>
+                    <div class="order">
+                        <input class="itms-num" type="number" min="0">
+                        <button>הוסף</button>
+                    </div>
+                </div>
+        
+                <div class="item">
+                    <a class="item-link" target="_blank" href="https://he.wikipedia.org/wiki/%D7%90%D7%95%D7%A0%D7%99%D7%95%D7%AA_%D7%94%D7%9E%D7%A2%D7%A8%D7%9B%D7%94_%D7%9E%D7%A1%D7%93%D7%A8%D7%AA_%D7%99%D7%90%D7%9E%D7%98%D7%95">
+                        ספינת מערכה מסדרת ימאטו
+                    </a>
+                    <img class="item-img" src=".\images\sea\yamato.png" alt="yamato battle ship">
+                    <div class="item-data">
+                        <div>סוג<br>ספינת מערכה</div>
+                        <div>הדחק<br>71,000 טונות</div>
+                        <div>אורך<br>263 מ'</div>
+                        <div>רוחב<br>36.11 מ'</div>
+                        <div>שוקע<br>11 מ'</div>
+                        <div>מהירות<br>27 קשר</div>
+                        <div>שריון<br>200-650 מ"מ</div>
+                        <div>חימוש
+                            <ul>
+                                <li>3*3 460 מ"מ</li>
+                                <li>2*3 155 מ"מ</li>
+                                <li>130 נ"מ 25 מ"מ</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="order">
+                        <input class="itms-num" type="number" min="0">
+                        <button>הוסף</button>
+                    </div>
+                </div>
+        
+                <div class="item">
+                    <a class="item-link" target="_blank" href="https://he.wikipedia.org/wiki/%D7%95%D7%90%D7%A1%D7%94_(%D7%90%D7%95%D7%A0%D7%99%D7%99%D7%94)">
+                        הגליאון ואסה
+                    </a>
+                    <img class="item-img" src=".\images\sea\vasa.jpg" alt="vasa">
+                    <div class="item-data">
+                        <div>סוג<br>גליאון</div>
+                        <div>תפוסה<br>1,210 טונות</div>
+                        <div>אורך<br>69 מ'</div>
+                        <div>רוחב<br>11.7 מ'</div>
+                        <div>גובה<br>52.5 מ'</div>
+                        <div>שוקע<br>4.8 מ'</div>
+                        <div>שטח מפרשים<br>1,275 מ"ר</div>
+                        <div>חימוש
+                            <ul>
+                                <li>48 24 ליטראות</li>
+                                <li>8 3 ליטראות</li>
+                                <li>2 1 ליטראות</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="order">
+                        <input class="itms-num" type="number" min="0">
+                        <button>הוסף</button>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="air">
+                <div class="item">
+                    <a class="item-link" target="_blank" href="https://he.wikipedia.org/wiki/%D7%91%D7%95%D7%90%D7%99%D7%A0%D7%92_AH-64_%D7%90%D7%A4%D7%90%D7%A6%27%D7%99">
+                        אפאצ'י AH-64E
+                    </a>
+                    <img class="item-img" src=".\images\air\ah-64e.jpg" alt="AH-64E">
+                    <div class="item-data">
+                        <div>סוג<br>מסק"ר</div>
+                        <div>אורך<br>14.68 מ'</div>
+                        <div>קוטר מדחף<br>14.63 מ'</div>
+                        <div>סייג רום<br>6.4 ק"מ</div>
+                        <div>מהירות<br>400 קמ"ש</div>
+                        <div>קצב נסיקה<br>762 מ'/ד'</div>
+                    </div>
+                    <div class="order">
+                        <input class="itms-num" type="number" min="0">
+                        <button>הוסף</button>
+                    </div>
+                </div>
+                
+                <div class="item">
+                    <a class="item-link" target="_blank" href="https://he.wikipedia.org/wiki/%D7%9C%D7%95%D7%A7%D7%94%D7%99%D7%93_SR-71">
+                        ציפור שחורה SR-71
+                    </a>
+                    <img class="item-img" src=".\images\air\bbsr71.jpg" alt="SR-71">
+                    <div class="item-data">
+                        <div>סוג<br>מטוס ביון</div>
+                        <div>אורך<br>32.74 מ'</div>
+                        <div>גובה<br>5.64 מ'</div>
+                        <div>משקל<br>69 טון</div>
+                        <div>מוטת כנפיים<br>16.94 מ'</div>
+                        <div>סייג רום<br>25.9 ק"מ</div>
+                        <div>מהירות<br>3.3 מאך</div>
+                    </div>
+                    <div class="order">
+                        <input class="itms-num" type="number" min="0">
+                        <button>הוסף</button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a class="item-link" target="_blank" href="https://he.wikipedia.org/wiki/%D7%A7%D7%9E%D7%95%D7%91_Ka-52">
+                        קאמוב 52
+                    </a>
+                    <img class="item-img" src=".\images\air\ka52.png" alt="KA-52">
+                    <div class="item-data">
+                        <div>סוג<br>מסק"ר</div>
+                        <div>אורך<br>15.86 מ'</div>
+                        <div>גובה<br>5.01 מ'</div>
+                        <div>מטען<br>2.5 טון</div>
+                        <div>קוטר מדחף<br>14.5 מ'</div>
+                        <div>מהירות<br>260 קמ"ש</div>
+                        <div>סייג רום<br>5.5 ק"מ</div>
+                    </div>
+                    <div class="order">
+                        <input class="itms-num" type="number" min="0">
+                        <button>הוסף</button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a class="item-link" target="_blank" href="https://he.wikipedia.org/wiki/%D7%A4%D7%A8%D7%95%D7%99%D7%A7%D7%98_%D7%99%D7%95%D7%A0%D7%94">
+                        פצצה מונחית יונים
+                    </a>
+                    <img class="item-img" src=".\images\air\Pigeon.jpg" alt="פצצה מונחית יונים">
+                    <div class="item-data">
+                        <div>סוג<br>פצצה</div>
+                        <div>צוות<br>3 יונים</div>
+                        <div>רדיוס פגיעה<br>תלוי כמה מוצלחות היונים שלך</div>
+                    </div>
+                    <div class="order">
+                        <input class="itms-num" type="number" min="0">
+                        <button>הוסף</button>
+                    </div>
+                </div>
+            </section>
+
+            <section id="army">
+                <div class="item">
+                    <a class="item-link" target="_blank" href="https://he.wikipedia.org/wiki/%D7%9C%D7%90%D7%95%D7%A4%D7%A8%D7%93_2">
+                        לאופרד 2
+                    </a>
+                    <img class="item-img" src=".\images\army\leopard2.jpg" alt="leopard2">
+                    <div class="item-data">
+                        <div>סוג<br>טנק מערכה</div>
+                        <div>אורך<br>7.69 מ'</div>
+                        <div>רוחב<br>3.7 מ'</div>
+                        <div>גובה<br>2.79 מ'</div>
+                        <div>משקל<br>62.3 טון</div>
+                        <div>מהירות שטח<br>45 קמ"ש</div>
+                        <div>תותח<br>120 מ"מ</div>
+                    </div>
+                    <div class="order">
+                        <input class="itms-num" type="number" min="0">
+                        <button>הוסף</button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a class="item-link" target="_blank" href="https://he.wikipedia.org/wiki/%D7%A4%D7%90%D7%A0%D7%A6%D7%A8_%D7%A1%D7%99%D7%9E%D7%9F_8">
+                        פאנצרקאמפפווגן סימן 8 מאוס
+                    </a>
+                    <img class="item-img" src=".\images\army\panzer8.jpg" alt="Panzerkampfwagen VIII Maus">
+                    <div class="item-data">
+                        <div>סוג<br>טנק כבד מאוד</div>
+                        <div>אורך<br>10.2 מ'</div>
+                        <div>רוחב<br>3.71 מ'</div>
+                        <div>גובה<br>3.36 מ'</div>
+                        <div>משקל<br>188 טון</div>
+                        <div>מהירות<br>13 קמ"ש</div>
+                        <div>חימוש<br>
+                            <ul>
+                                <li>128 n"n</li>
+                                <li>75 n"n</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="order">
+                        <input class="itms-num" type="number" min="0">
+                        <button>הוסף</button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a class="item-link" target="_blank" href="https://en.wikipedia.org/wiki/M142_HIMARS">
+                        M142 HIMARS
+                    </a>
+                    <img class="item-img" src=".\images\army\himars.jpg" alt="M142 HIMARS">
+                    <div class="item-data">
+                        <div>סוג<br>משגר רב קני</div>
+                        <div>אורך<br>7 מ'</div>
+                        <div>רוחב<br>2.4 מ'</div>
+                        <div>גובה<br>3.2 מ'</div>
+                        <div>משקל<br>16.25 טון</div>
+                        <div>מהירות<br>85 קמ"ש</div>
+                    </div>
+                    <div class="order">
+                        <input class="itms-num" type="number" min="0">
+                        <button>הוסף</button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a class="item-link" target="_blank" href="https://he.wikipedia.org/wiki/%D7%A9%D7%95%D7%95%D7%A8%D7%A8_%D7%92%D7%95%D7%A1%D7%98%D7%91">
+                        שוורר גוסטב
+                    </a>
+                    <img class="item-img" src=".\images\army\Schwerer_Gustav.webp" alt="Schwerer Gustav">
+                    <div class="item-data">
+                        <div>סוג<br>תותח על</div>
+                        <div>אורך<br>47.3 מ'</div>
+                        <div>רוחב<br>7.1 מ'</div>
+                        <div>גובה<br>11.6 מ'</div>
+                        <div>משקל<br>1.35 טון</div>
+                        <div>קליבר<br>800 מ"מ</div>
+                        <div>אורך קנה<br>32.48 מ"מ</div>
+                    </div>
+                    <div class="order">
+                        <input class="itms-num" type="number" min="0">
+                        <button>הוסף</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="nav-flex">
+            <a href="contact.html">צור קשר</a>
+          </div>
+      </footer>
+</body>
+</html>

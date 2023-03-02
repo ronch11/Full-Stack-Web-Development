@@ -1,0 +1,54 @@
+main {
+    margin: 5rem;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th, tr td:nth-child(1) {
+    text-align: right;    
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.form {
+    border: 2px solid black;
+    border-radius: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 4vh;
+    padding: 2vh;
+}
+/*
+form, form > div, form > div > *, textarea {
+    background-color: #9598a4;
+}*/
+
+form > div > *, textarea {
+    border: 2px solid black;
+}
+
+::placeholder { 
+    color: black;
+    opacity: 1;
+  }
+
+input {
+    color: black;
+    padding: 1vh;
+    margin: 1vh;
+    width: fit-content;
+}
