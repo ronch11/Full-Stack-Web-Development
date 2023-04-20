@@ -1,0 +1,81 @@
+/*.App {*/
+/*  text-align: center;*/
+/*}*/
+
+/*.App-header {*/
+/*  min-height: 10vh;*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*  font-size: calc(1rem + 2vmin);*/
+/*  color: white;*/
+/*}*/
+
+/*.Game {*/
+/*  min-height: 80vh;*/
+/*  border: 0.25rem solid #ccc;*/
+/*  padding: 2rem;*/
+/*  border-radius: 1rem;*/
+/*  margin: 0 2rem;*/
+/*}*/
+
+/*.player {*/
+/*  background-color: #fff;*/
+/*  margin-right: 1rem;*/
+/*  max-width: 40rem;*/
+/*  max-height: 30rem;*/
+/*  padding: 2rem;*/
+/*}*/
+/*.score {*/
+/*  background-color: #eee;*/
+/*}*/
+
+/*.Game button {*/
+/*  padding: 1em;*/
+/*  border-radius: 0.5em;*/
+/*  font-size: 2rem;*/
+/*  border: none;*/
+/*  background-color: #007bff;*/
+/*  color: #fff;*/
+/*}*/
+
+/*.Game button:hover {*/
+/*  background-color: #0069d9;*/
+/*}*/
+
+/*.player.current {*/
+/*  background-color: #007bff;*/
+/*  color: #fff;*/
+/*  -webkit-box-shadow: 0rem 1rem 1rem 0rem rgba(0,105,217,0.8);*/
+/*  -moz-box-shadow: 0rem 1rem 1rem 0rem rgba(0,105,217,0.8);*/
+/*  box-shadow: 0rem 1rem 1rem 0rem rgba(0,105,217,0.8);*/
+/*}*/
+
+/*.pane {*/
+/*  display:  flex;*/
+/*  flex-direction: column;*/
+/*  flex-wrap: wrap;*/
+/*  max-width: 50%;*/
+/*  max-height: 50vh;*/
+/*  margin: 1rem auto;*/
+/*  gap: 2rem;*/
+/*}*/
+
+/*.pane label {*/
+/*  width: max-content;*/
+/*  font-size: 3rem;*/
+/*}*/
+
+/*.pane input {*/
+/*  margin: 0 2rem;*/
+/*  font-size: 2rem;*/
+/*  padding: 1rem;*/
+/*  border-radius: 0.5rem;*/
+/*}*/
+
+/*.board {*/
+/*  display: flex;*/
+/*  flex-wrap: wrap;*/
+/*  height: 50vh;*/
+/*}*/
